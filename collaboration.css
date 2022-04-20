@@ -13,3 +13,56 @@ h1 {
     text-align: center;
     color: red;
   }
+
+
+
+
+
+
+/* ------ FOOTER ------- */
+
+footer {
+  background-color:turquoise;
+  padding: 50px;
+  font-size: 80%;
+}
+
+.footer-nav {
+  list-style: none;
+  float: left;
+}
+
+
+.footer-nav li {
+  display: inline-block;
+  margin-right: 20px;
+  list-style-type: none;
+}
+
+.footer-nav li a:link {
+    text-decoration: none;
+    border: 0;
+    color: red;
+    transition: color 0.2s;
+}
+
+
+.footer-nav li a:visited {
+  text-decoration:none;
+  border: 0;
+  color: ghostwhite;
+  transition: color 0.2s;
+}
+
+
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: firebrick;
+}
+
+footer p {
+  color: navy;
+  text-align: center;
+  margin-top: 20px;
+}
